@@ -9,9 +9,9 @@ import subprocess
 class StyleTransfer(object):
 	def __init__(self):
 		self.port = "5556"
-		self.input_location = "/home/jammu55048/fast-style-transfer/"
-		self.output_location = "/home/jammu55048/fast-style-transfer/outputs/"
-		self.checkpoint_dir = "/home/jammu55048/fast-style-transfer/models/la_muse.ckpt"
+		self.input_location = "/home/jammu55048/polaroid/backend/fast-style-transfer/"
+		self.output_location = "/home/jammu55048/polaroid/backend/fast-style-transfer/outputs/"
+		self.checkpoint_dir = "/home/jammu55048/polaroid/backend/fast-style-transfer/models/la_muse.ckpt"
 		self.device = "/gpu:0"
 		print("before serve")
 		self.serve()
